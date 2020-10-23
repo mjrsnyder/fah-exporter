@@ -154,7 +154,6 @@ class FAHCollector(object):
             # Grab some slot stuff too (mostly for the description)
             for i in self.get_slot_idle(): yield i
 
-
 if __name__ == '__main__':
 
     # Get config options via env vars
